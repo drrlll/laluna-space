@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buku Menu Responsif</title>
+    <!-- Memuat Font Montserrat dari Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* CSS Global */
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            font-family: soria;
+            font-size: 4em;
+            color: white;
+            margin: 20px 0;
+        }
+
+        /* Layout Grid untuk Menu */
+        .menu-section {
+            padding: 20px;
+        }
+
+        .menu-container {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            grid-template-rows: repeat(5, auto); 
+            gap: 20px; /* Jarak antar menu */
+            justify-items: center;
+        }
+        .menu-item:hover {
+            transform: scale(1.1);
+        }
+        /* Gaya untuk Box Menu */
+        .menu-item {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 250px;
+            text-align: center;
+        }
+
+        .menu-item img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+
+        .menu-item h3 {
+            font-size: 1.2em;
+            margin: 10px 0;
+            color: #333;
+        }
+
+        .menu-item p {
+            font-size: 0.9em;
+            color: #666;
+            padding: 0 10px 10px;
+        }
+        .menu-item .price {
+            Font-size: 1.2em;
+	        font-weight: 1000;
+            margin-bottom: 10px;
+        }
+        /* Warna Latar untuk Setiap Section */
+        .section-orange {
+            background-color: orange;
+        }
+
+        .section-blue {
+            background-color: #007BFF;
+        }
+
+        .section-red {
+            background-color: #FF6347;
+        }
+
+        .section-pink {
+            background-color: #FFC0CB;
+        }
+
+        .section-black {
+            background-color: #000000;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Section Orange -->
+    <div class="menu-section section-orange">
+        <h1>Menu Oranye</h1>
+        <div class="menu-container">
+            <!-- Template Menu Item -->
+            <div class="menu-item">
+                <img src="D:/LALUNA SPACE MENU WEB/ccm.JPG" alt="Hazelnut Latte">
+                <h2>HAZELNUT LATTE</h2>
+                <p>Es Kopi Susu dengan Flavour Hazelnut</p>
+                <p class="price">25K I 30K </p>
+            </div>
+                <div class="menu-item">
+                <img src="D:/LALUNA SPACE MENU WEB/ccm.JPG" alt="Hazelnut Latte">
+                <h2>HAZELNUT LATTE</h2>
+                <p>Es Kopi Susu dengan Flavour Hazelnut</p>
+                <p class="price">25K I 30K </p>
+            </div>    
+            <div class="menu-item">
+                <img src="D:/LALUNA SPACE MENU WEB/ccm.JPG" alt="Hazelnut Latte">
+                <h2>HAZELNUT LATTE</h2>
+                <p>Es Kopi Susu dengan Flavour Hazelnut</p>
+                <p class="price">25K I 30K </p>
+            </div>
+            <div class="menu-item">
+                <img src="D:/LALUNA SPACE MENU WEB/ccm.JPG" alt="Hazelnut Latte">
+                <h2>HAZELNUT LATTE</h2>
+                <p>Es Kopi Susu dengan Flavour Hazelnut</p>
+                <p class="price">25K I 30K </p>
+            </div>
+            <div class="menu-item">
+                <img src="D:/LALUNA SPACE MENU WEB/ccm.JPG" alt="Hazelnut Latte">
+                <h2>HAZELNUT LATTE</h2>
+                <p>Es Kopi Susu dengan Flavour Hazelnut</p>
+                <p class="price">25K I 30K </p>
+            </div>
+
+            <!-- Tambahkan menu lainnya hingga 100 -->
+        </div>
+    </div>
+
+    <!-- Section Blue -->
+    <div class="menu-section section-blue">
+        <h1>Menu Biru</h1>
+        <div class="menu-container">
+            <!-- Template Menu Item -->
+            <div class="menu-item">
+                <img src="https://via.placeholder.com/250x150" alt="Menu 3">
+                <h3>Menu 3</h3>
+                <p>Deskripsi menu 3</p>
+            </div>
+            <div class="menu-item">
+                <img src="https://via.placeholder.com/250x150" alt="Menu 4">
+                <h3>Menu 4</h3>
+                <p>Deskripsi menu 4</p>
+            </div>
+            <!-- Tambahkan menu lainnya hingga 100 -->
+        </div>
+    </div>
+
+    <!-- Section Red -->
+    <div class="menu-section section-red">
+        <h1>Menu Merah</h1>
+        <div class="menu-container">
+            <!-- Template Menu Item -->
+            <div class="menu-item">
+                <img src="https://via.placeholder.com/250x150" alt="Menu 5">
+                <h3>Menu 5</h3>
+                <p>Deskripsi menu 5</p>
+            </div>
+            <div class="menu-item">
+                <img src="https://via.placeholder.com/250x150" alt="Menu 6">
+                <h3>Menu 6</h3>
+                <p>Deskripsi menu 6</p>
+            </div>
+            <!-- Tambahkan menu lainnya hingga 100 -->
+        </div>
+    </div>
+
+    <!-- Section Pink -->
+    <div class="menu-section section-pink">
+        <h1>Menu Pink</h1>
+        <div class="menu-container">
+            <!-- Template Menu Item -->
+            <div class="menu-item">
+                <img src="https://via.placeholder.com/250x150" alt="Menu 7">
+                <h3>Menu 7</h3>
+                <p>Deskripsi menu 7</p>
+            </div>
+            <div class="menu-item">
+                <img src="https://via.placeholder.com/250x150" alt="Menu 8">
+                <h3>Menu 8</h3>
+                <p>Deskripsi menu 8</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="menu-section section-black">
+        <h1>Menu Black</h1>
+        <div class="menu-container">
+            <!-- Template Menu Item -->
+            <div class="menu-item">
+                <img src="https://via.placeholder.com/250x150" alt="Menu 7">
+                <h3>Menu 7</h3>
+                <p>Deskripsi menu 7</p>
+            </div>
+            <div class="menu-item">
+                <img src="https://via.placeholder.com/250x150" alt="Menu 8">
+                <h3>Menu 8</h3>
+                <p>Deskripsi menu 8</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
